@@ -1,0 +1,6 @@
+*arp -a*
+
+      [arp -a] - shows:
+      - ARP cache;
+      - matching IPv4 - Mac adresses on the local network;
+      - type of record in ARP cache: dynamic or static.
