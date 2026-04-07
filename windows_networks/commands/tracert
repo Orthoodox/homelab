@@ -1,1 +1,12 @@
+*Tracert*
+
+    tracert - determine the route to a remote node.
+
+shows:
+- intermediate hops (routers) on the way to the destination,
+- delay before each hop,
+- the location of a possible break or increase in latency.
+
+The command works by sending packets with a gradually increasing TTL.
+When the TTL expires on the router, it responds, and `tracert' captures this hop.
 
