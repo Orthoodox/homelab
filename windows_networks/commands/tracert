@@ -7,6 +7,6 @@ shows:
 - delay before each hop,
 - the location of a possible break or increase in latency.
 
-The command works by sending packets with a gradually increasing TTL.
+The command works by sending packets with a gradually increasing TTL (Time to live).
 When the TTL expires on the router, it responds, and `tracert' captures this hop.
 
