@@ -6,7 +6,7 @@ Parameters:
 
       /all - full configuration
 
-      /renew - ruquest new ipv4 from DHCP
+      /renew - request new ipv4 from DHCP
 
       /release - realeses the current ipv4 from DHCP
 
