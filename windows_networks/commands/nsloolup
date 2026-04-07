@@ -1,3 +1,18 @@
 *nslookup*
 
-      nslookup - query dns and 
+      nslookup - query dns and return adresses, what responded
+
+# example
+      nslookup google.com
+
+      output:
+Addresses:  2a00:1450:4010:c0b::8b
+          2a00:1450:4010:c0b::66
+          2a00:1450:4010:c0b::64
+          2a00:1450:4010:c0b::71
+          74.125.205.138
+          74.125.205.139
+          74.125.205.113
+          74.125.205.101
+          74.125.205.102
+          74.125.205.100
