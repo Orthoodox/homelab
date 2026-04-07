@@ -1,0 +1,17 @@
+*Basic command for windows networks*
+
+    ipconfig - configuration of network
+
+Parameters:
+
+      /all - full configuration
+
+      /renew - ruquest new ipv4 from DHCP
+
+      /release - realeses the current ipv4 from DHCP
+
+      /displaydns & / flushdns - for diagnostic DNS
+
+      /registerdns - re-gisters DNS name of PC in DNS
+
+      /renew & /release - for ipv6
