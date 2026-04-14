@@ -1,1 +1,26 @@
 
+# route print
+
+## What does
+`route print` shows the routing table of the Windows host.
+
+## Why is it needed
+Helps to understand:
+- which networks are considered local,
+- which gateway is used by default,
+- which interface does the traffic go through,
+- whether there is a route to the desired network.
+
+## Main fields
+- `Network Destination' — destination network
+- `Netmask' — network mask
+- `Gateway' — gateway or `On-link`
+- `Interface` — local interface
+- `Metric' — route priority
+
+## What's important
+The route `0.0.0.0 / 0.0.0.0` is the default route.
+If there is no more specific route, traffic follows it.
+
+## Typical error
+Having an IP address does not guarantee access to the network if there is no correct default route.
